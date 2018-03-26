@@ -7,3 +7,6 @@ output:
     theme: flatly
 navbar:
   title: "My First Webpage"
+  left:
+    text: "Home"
+    href: "index.html"
