@@ -1,10 +1,14 @@
 ---
 title: "My First Website"
 author: "Daniel Brady"
-date: "26 March 2018"
 output: html_document
 ---
 
-I am a Postdoctoral student in the University of Surrey [School of Psychology](https://www.surrey.ac.uk/school-psychology).
+#Bio:
 
-I am working with [Dr. Hayley Leonard](https://www.surrey.ac.uk/people/hayley-leonard) and [Prof. Bertram Opitz](https://www.surrey.ac.uk/people/bertram-opitz).
+I am a Postdoctoral fellow currently working at the University of Surrey in the [School of Psychology](https://www.surrey.ac.uk/school-psychology).
+I am working with [Dr. Hayley Leonard](https://www.surrey.ac.uk/people/hayley-leonard) and [Prof. Bertram Opitz](https://www.surrey.ac.uk/people/bertram-opitz) on a project investigating sequence predction in typically developing children, children with Developmental coordination disorder (DCD), and children with both DCD and language difficulties.
+
+I completed my PhD at Goldsmiths, Univesity of London in December 2016. My thesis investigated the neural correlates of motor learning in adults with and without DCD.
+
+I formerly worked on the [London Down Syndrome (LonDownS) Consortium](http://www.ucl.ac.uk/london-down-syndrome-consortium) in the [Infant Stream](http://www.ucl.ac.uk/london-down-syndrome-consortium/research-themes/infants) at Birkbeck
