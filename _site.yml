@@ -4,9 +4,16 @@ output_dir: "docs"
 output:
   html_document:
     self_contaoned: no
-    theme: flatly
+    theme: journal
+    css: style.css
 navbar:
-  title: "My First Webpage"
+  title: "Home"
   left:
-    text: "Home"
-    href: "index.html"
+    - text: "About me"
+      href: "about.html"
+    - text: "Publications"
+      href: "pubs.html"
+    - text: "Projects"
+      href: "projects.html"
+    - text: "Blog"
+      href: "blog.html"

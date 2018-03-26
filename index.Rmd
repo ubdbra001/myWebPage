@@ -1,14 +1,20 @@
 ---
-title: "My First Website"
-author: "Daniel Brady"
+title: "Dan Brady's Home"
 output: html_document
 ---
 
-#Bio:
+![](images/profilePic.png)
 
-I am a Postdoctoral fellow currently working at the University of Surrey in the [School of Psychology](https://www.surrey.ac.uk/school-psychology).
-I am working with [Dr. Hayley Leonard](https://www.surrey.ac.uk/people/hayley-leonard) and [Prof. Bertram Opitz](https://www.surrey.ac.uk/people/bertram-opitz) on a project investigating sequence predction in typically developing children, children with Developmental coordination disorder (DCD), and children with both DCD and language difficulties.
 
-I completed my PhD at Goldsmiths, Univesity of London in December 2016. My thesis investigated the neural correlates of motor learning in adults with and without DCD.
+Welcome to my homepage.
+I'm a postdoctoral researcher interested in motor development and developmental cognitive neuroscience.
 
-I formerly worked within the [London Down Syndrome (LonDownS) Consortium](http://www.ucl.ac.uk/london-down-syndrome-consortium) in the [Infant Stream](http://www.ucl.ac.uk/london-down-syndrome-consortium/research-themes/infants) at Birkbeck
+* Learn a bit more [about me](about.html)
+* Have a look at my [publications](pubs.html)
+* Have a browse around my [current projects](projs.html)
+* Read through [my ramblings](blog.html)
+
+You can contact me via [email](mailto:dan.brady@rocketmail.com) or via [Twitter](https://www.twitter.com/DanTBrady)
+
+---
+Last updated: `r format(Sys.Date(), "%B %d, %Y")`
