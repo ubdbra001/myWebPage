@@ -1,0 +1,9 @@
+name: "mywebpage"
+author: "Dan Brady"
+output_dir: "docs"
+output:
+  html_document:
+    self_contaoned: no
+    theme: flatly
+navbar:
+  title: "My First Webpage"
