@@ -1,6 +1,10 @@
 ---
 title: "About Me"
-output: html_document
+output:
+  html_document:
+    toc: true
+    toc_float: true
+
 ---
 
 I completed my PhD at Goldsmiths, Univesity of London in December 2016. My thesis investigated the neural correlates of motor learning in adults with and without DCD.
@@ -8,14 +12,9 @@ I completed my PhD at Goldsmiths, Univesity of London in December 2016. My thesi
 I am a Postdoctoral fellow currently working at the University of Surrey in the [School of Psychology](https://www.surrey.ac.uk/school-psychology).
 I am working with [Dr. Hayley Leonard](https://www.surrey.ac.uk/people/hayley-leonard) and [Prof. Bertram Opitz](https://www.surrey.ac.uk/people/bertram-opitz) on a project investigating sequence predction in typically developing children, children with Developmental coordination disorder (DCD), and children with both DCD and language difficulties.
 
-Jump to:  
-[Education](#education)  
-[Employment](#employment)  
-[Skills](#skills)  
-
 ---
 
-##Education: {#education}  
+##Education {#education}  
 **Ph.D. Psychology** - *Department of Psychology, Goldsmiths: 10/2012 - 09/2016*  
 
 * Funded by Departmental Studentship
@@ -27,7 +26,7 @@ Jump to:
 
 ---
 
-##Employment: {#employment}
+##Employment {#employment}
 
 **Postdoctoral research fellow (80% FTE)** - *School of Psychology, University of Surrey: 10/2017 - Present*
 
@@ -41,13 +40,15 @@ Jump to:
 **Associate Lecturer** - *Department of Psychology, Goldsmiths: 10/2012 - 04/2016*
 
 * Teaching 1st, 2nd, 3rd year undergraduate and M.Sc. tutorials
-* 
+* E-Prime support space
 
 ---
 
-##Skills: {#skills}
+##Skills {#skills}
 
 **Technical skills**:
   
 * Programming: *Matlab, Python and R*
-* Data analysis: *Behavioural and EEG*
+* Experimental design: *PsychoPy, Psychtoolbox, E-Prime*
+* Experimental equipment: *EEG and Eyetracking* 
+* Data analysis: *Behavioural, EEG, and Eyetracking*

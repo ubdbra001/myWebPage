@@ -2,11 +2,15 @@
 title: "Dan Brady's Home"
 output: html_document
 ---
-
+<div class="row">
+<div class="column left">
 ![](images/profilePic.png)
 
+</div>
 
-Welcome to my homepage.
+<div class="column right">
+Welcome to my homepage.  
+
 I'm a postdoctoral researcher interested in motor development and developmental cognitive neuroscience.
 
 * Learn a bit more [about me](about.html)
@@ -14,7 +18,11 @@ I'm a postdoctoral researcher interested in motor development and developmental 
 * Have a browse around my [current projects](projs.html)
 * Read through [my ramblings](blog.html)
 
+
 You can contact me via [email](mailto:dan.brady@rocketmail.com) or via [Twitter](https://www.twitter.com/DanTBrady)
+
+</div>
+</div>
 
 ---
 Last updated: `r format(Sys.Date(), "%B %d, %Y")`
