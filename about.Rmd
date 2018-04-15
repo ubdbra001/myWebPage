@@ -4,7 +4,6 @@ output:
   html_document:
     toc: true
     toc_float: true
-
 ---
 
 I completed my PhD at Goldsmiths, Univesity of London in December 2016. My thesis investigated the neural correlates of motor learning in adults with and without DCD.
@@ -18,11 +17,16 @@ I am working with [Dr. Hayley Leonard](https://www.surrey.ac.uk/people/hayley-le
 **Ph.D. Psychology** - *Department of Psychology, Goldsmiths: 10/2012 - 09/2016*  
 
 * Funded by Departmental Studentship
+* Awarded with no corrections
 * Supervised by Dr. Jose Van Velzen & Prof. Elisabeth Hill
 
 **M.Sc. Cognitive and Clinical Neuroscience** - *Department of Psychology, Goldsmiths: 10/2010 - 09/2012*
 
-**B.Sc. Psychology with Neuroscience** - *University of Westminster: 10/2007 - 06/2010*
+* Awarded with Merit
+
+**B.Sc. (Hons.) Psychology with Neuroscience** - *Faculty of Science and Technology, University of Westminster: 10/2007 - 06/2010*
+
+* Awarded Upper Second-Class honours
 
 ---
 
@@ -32,14 +36,15 @@ I am working with [Dr. Hayley Leonard](https://www.surrey.ac.uk/people/hayley-le
 
 * Principle Investigators: Dr. Hayley Leonard & Prof. Bertram Opitz
 
-**Postdoctoral research fellow (60% FTE)** - *Department of Psychology, Birkbeck: 04/2016 - 09/2017*
+**Postdoctoral research fellow (60% FTE)** - *Centre for Brain & Cognitive Development, Department of Psychological Sciences, Birkbeck: 04/2016 - 09/2017*
 
 * Infant stream of the London Down Syndrome (LonDownS) Consortium
 * Supervised by Prof. Michael Thomas & Prof. Denis Mareschal (formerly supervised by Prof. Karmiloff-Smith)
 
 **Associate Lecturer** - *Department of Psychology, Goldsmiths: 10/2012 - 04/2016*
 
-* Teaching 1st, 2nd, 3rd year undergraduate and M.Sc. tutorials
+* Teaching 1st and 2nd year undergraduate tutorials
+* 3rd year undergraduate and M.Sc. hands-on demonstrations with neuroscientific equipment
 * E-Prime support space
 
 ---
@@ -50,5 +55,6 @@ I am working with [Dr. Hayley Leonard](https://www.surrey.ac.uk/people/hayley-le
   
 * Programming: *Matlab, Python and R*
 * Experimental design: *PsychoPy, Psychtoolbox, E-Prime*
-* Experimental equipment: *EEG and Eyetracking* 
+* Experimental equipment: *EEG, TMS, and Eyetracking* 
 * Data analysis: *Behavioural, EEG, and Eyetracking*
+* Testing children and adults
