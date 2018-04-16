@@ -2,4 +2,7 @@
 title: "Blog"
 ---
 
-Work in progress
+Under construction
+
+---
+Last updated: `r format(Sys.Date(), "%B %d, %Y")`

@@ -52,4 +52,5 @@ published <- pubs %>%
 glue::glue_data(published, "{Authors} ({Year}). {Title}. <br><br>")
 ```
 
-
+---
+Last updated: `r format(Sys.Date(), "%B %d, %Y")`

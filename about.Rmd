@@ -58,3 +58,6 @@ I am working with [Dr. Hayley Leonard](https://www.surrey.ac.uk/people/hayley-le
 * Experimental equipment: *EEG, TMS, and Eyetracking* 
 * Data analysis: *Behavioural, EEG, and Eyetracking*
 * Testing children and adults
+
+---
+Last updated: `r format(Sys.Date(), "%B %d, %Y")`

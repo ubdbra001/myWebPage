@@ -15,8 +15,8 @@ I'm a postdoctoral researcher interested in motor development and developmental 
 
 * Learn a bit more [about me](about.html)
 * Have a look at my [publications](pubs.html)
-* Have a browse around my [current projects](projs.html)
-* Read through [my ramblings](blog.html)
+* Have a browse around my [current projects](projs.html) (Under Construction)
+* Read through [my ramblings](blog.html) (Under Construction)
 
 
 You can contact me via [email](mailto:dan.brady@rocketmail.com) or via [Twitter](https://www.twitter.com/DanTBrady)
