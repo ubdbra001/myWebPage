@@ -40,7 +40,7 @@ glue::glue_data(published, "{Authors} ({Year}). {Title}. *{Publication}*. <br><b
 published <- pubs %>%
   filter(status == "Submitted")
 
-glue::glue_data(published, "{Authors} ({Year}). {Title}. *{Publication}*. <br>")
+glue::glue_data(published, "{Authors} ({Year}). {Title}. *{Publication}*. <br><br>")
 ```
 
 ###In Preparation
