@@ -18,7 +18,7 @@ pubs <- gs_url("https://docs.google.com/spreadsheets/d/1o1ws9sP42QBqFvFP0wQcJ5Rk
 
 ```{r, results='asis', echo=FALSE}
 published <- pubs %>%
-  filter(status == 1) %>%
+  filter(status == "Published") %>%
   arrange(Year)
 
 glue::glue_data(published, "{Authors} ({Year}). {Title}. *{Publication}, {Volume}*({Number}), {Pages}. <br><br>")
@@ -29,7 +29,7 @@ glue::glue_data(published, "{Authors} ({Year}). {Title}. *{Publication}, {Volume
 
 ```{r, results='asis', echo=FALSE}
 published <- pubs %>%
-  filter(status == 2)
+  filter(status == "Accepted")
 
 glue::glue_data(published, "{Authors} ({Year}). {Title}. *{Publication}*. <br><br>")
 ```
@@ -38,16 +38,16 @@ glue::glue_data(published, "{Authors} ({Year}). {Title}. *{Publication}*. <br><b
 
 ```{r, results='asis', echo=FALSE}
 published <- pubs %>%
-  filter(status == 3)
+  filter(status == "Submitted")
 
-glue::glue_data(published, "{Authors} ({Year}). {Title}. *{Publication}*. <br><br>")
+glue::glue_data(published, "{Authors} ({Year}). {Title}. *{Publication}*. <br>")
 ```
 
 ###In Preparation
 
 ```{r, results='asis', echo=FALSE}
 published <- pubs %>%
-  filter(status == 4)
+  filter(status == "InPrep")
 
 glue::glue_data(published, "{Authors} ({Year}). {Title}. <br><br>")
 ```
