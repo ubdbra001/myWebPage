@@ -1,20 +1,20 @@
 ---
 title: "Publications"
+output: html_document
 ---
 
-
-``` {r, include = FALSE}
+``` {r, include = FALSE, results='asis'}
 library("dplyr")
 library("googlesheets")
 pubs <- gs_url("https://docs.google.com/spreadsheets/d/1o1ws9sP42QBqFvFP0wQcJ5Rk6l2ILaJrmhOdioMlVpY/edit#gid=0", verbose = FALSE) %>% 
   gs_read(verbose = FALSE)
 ```
-
-
-ORCID:
+**ORCID ID**:
 <a href="https://orcid.org/0000-0003-4671-0676" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">0000-0003-4671-0676</a>
 
-##Published
+---
+
+###Published
 
 ```{r, results='asis', echo=FALSE}
 published <- pubs %>%
@@ -24,7 +24,8 @@ published <- pubs %>%
 glue::glue_data(published, "{Authors} ({Year}). {Title}. *{Publication}, {Volume}*({Number}), {Pages}. <br><br>")
 ```
 
-##Accepted
+
+###Accepted
 
 ```{r, results='asis', echo=FALSE}
 published <- pubs %>%
@@ -33,7 +34,7 @@ published <- pubs %>%
 glue::glue_data(published, "{Authors} ({Year}). {Title}. *{Publication}*. <br><br>")
 ```
 
-##Submitted
+###Submitted
 
 ```{r, results='asis', echo=FALSE}
 published <- pubs %>%
@@ -42,10 +43,13 @@ published <- pubs %>%
 glue::glue_data(published, "{Authors} ({Year}). {Title}. *{Publication}*. <br><br>")
 ```
 
-##In Preparation
+###In Preparation
 
 ```{r, results='asis', echo=FALSE}
 published <- pubs %>%
   filter(status == 4)
 
 glue::glue_data(published, "{Authors} ({Year}). {Title}. <br><br>")
+```
+
+
