@@ -1,10 +1,9 @@
 ---
 title: "Dan Brady's Home"
 output:
-  html_document:
-    include:
-      after_body: _footer.html
+  html_document
 ---
+
 <div class="row">
 <div class="column left">
 ![](images/profilePic.png)
@@ -18,12 +17,14 @@ I'm a postdoctoral researcher interested in motor development and developmental 
 
 * Learn a bit more [about me](about.html)
 * Have a look at my [publications](pubs.html)
-* Have a browse around my [current projects](projs.html) (Under Construction)
-* Read through [my ramblings](blog.html) (Under Construction)
 
-
-You can contact me via [email](mailto:dan.brady@rocketmail.com) or via [Twitter](https://www.twitter.com/DanTBrady)
+---
+# * Have a browse around my [current projects](projs.html)
+# * Read through [my ramblings](blog.html)
+---
 
 </div>
 </div>
 
+---
+Last updated: `r format(Sys.Date(), "%B %d, %Y")`
