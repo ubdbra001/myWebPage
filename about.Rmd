@@ -4,8 +4,7 @@ output:
   html_document:
     toc: true
     toc_float: true
-    include:
-      after_body: _footer.html
+
 ---
 
 I completed my PhD at Goldsmiths, Univesity of London in December 2016. My thesis investigated the neural correlates of motor learning in adults with and without DCD.
@@ -61,5 +60,3 @@ I am working with [Dr. Hayley Leonard](https://www.surrey.ac.uk/people/hayley-le
 * Data analysis: *Behavioural, EEG, and Eyetracking*
 * Testing children and adults
 
----
-Last updated: `r format(Sys.Date(), "%B %d, %Y")`

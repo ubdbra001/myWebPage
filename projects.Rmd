@@ -1,9 +1,7 @@
 ---
 title: "Projects"
 output:
-  html_document:
-    include:
-      after_body: _footer.html
+  html_document
 ---
 
 Under construction
