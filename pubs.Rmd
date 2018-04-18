@@ -43,14 +43,6 @@ published <- pubs %>%
 glue::glue_data(published, "{Authors} ({Year}). {Title}. *{Publication}*. <br><br>")
 ```
 
-###In Preparation
-
-```{r, results='asis', echo=FALSE}
-published <- pubs %>%
-  filter(status == "InPrep")
-
-glue::glue_data(published, "{Authors} ({Year}). {Title}. <br><br>")
-```
 
 ---
 Last updated: `r format(Sys.Date(), "%B %d, %Y")`
