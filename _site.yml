@@ -3,7 +3,7 @@ author: "Dan Brady"
 output_dir: "docs"
 output:
   html_document:
-    self_contaoned: no
+    self_contained: no
     theme: cerulean
     css: style.css
 navbar:
