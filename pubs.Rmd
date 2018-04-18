@@ -1,6 +1,9 @@
 ---
 title: "Publications"
-output: html_document
+output:
+  html_document:
+    include:
+      after_body: _footer.html
 ---
 
 ``` {r, include = FALSE, results='asis'}
@@ -44,5 +47,3 @@ glue::glue_data(published, "{Authors} ({Year}). {Title}. *{Publication}*. <br><b
 ```
 
 
----
-Last updated: `r format(Sys.Date(), "%B %d, %Y")`

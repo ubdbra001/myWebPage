@@ -1,6 +1,9 @@
 ---
 title: "Dan Brady's Home"
-output: html_document
+output:
+  html_document:
+    include:
+      after_body: _footer.html
 ---
 <div class="row">
 <div class="column left">
@@ -24,5 +27,3 @@ You can contact me via [email](mailto:dan.brady@rocketmail.com) or via [Twitter]
 </div>
 </div>
 
----
-Last updated: `r format(Sys.Date(), "%B %d, %Y")`

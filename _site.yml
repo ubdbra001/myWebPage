@@ -1,19 +1,21 @@
-name: "ubdbra001.github.io"
-author: "Dan Brady"
-output_dir: "docs"
+name: ubdbra001.github.io
+author: Dan Brady
+output_dir: "."
 output:
   html_document:
-    self_contained: no
     theme: cerulean
     css: style.css
+    lib_dir: site_libs
+    self_contained: no
 navbar:
-  title: "Home"
+  title: Home
   left:
-    - text: "About me"
-      href: "about.html"
-    - text: "Publications"
-      href: "pubs.html"
-    - text: "Projects"
-      href: "projects.html"
-    - text: "Blog"
-      href: "blog.html"
+  - text: About me
+    href: about.html
+  - text: Publications
+    href: pubs.html
+  - text: Projects
+    href: projects.html
+  - text: Blog
+    href: blog.html
+

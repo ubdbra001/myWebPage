@@ -1,8 +1,7 @@
 ---
 title: "Blog"
+output: html_document
 ---
 
 Under construction
 
----
-Last updated: `r format(Sys.Date(), "%B %d, %Y")`
