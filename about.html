@@ -15,13 +15,10 @@
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
-<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
-<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
-<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -104,34 +101,34 @@ button.code-folding-btn:focus {
 <style type="text/css">
 /* padding for bootstrap navbar */
 body {
-  padding-top: 51px;
+  padding-top: 45px;
   padding-bottom: 40px;
 }
 /* offset scroll position for anchor links (for fixed navbar)  */
 .section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 50px;
+  margin-top: -50px;
 }
 
 .section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 50px;
+  margin-top: -50px;
 }
 .section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 50px;
+  margin-top: -50px;
 }
 .section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 50px;
+  margin-top: -50px;
 }
 .section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 50px;
+  margin-top: -50px;
 }
 .section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 50px;
+  margin-top: -50px;
 }
 </style>
 
@@ -168,101 +165,6 @@ $(document).ready(function () {
 
 
 
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
-
-<style type="text/css">
-
-#TOC {
-  margin: 25px 0px 20px 0px;
-}
-@media (max-width: 768px) {
-#TOC {
-  position: relative;
-  width: 100%;
-}
-}
-
-
-.toc-content {
-  padding-left: 30px;
-  padding-right: 40px;
-}
-
-div.main-container {
-  max-width: 1200px;
-}
-
-div.tocify {
-  width: 20%;
-  max-width: 260px;
-  max-height: 85%;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  div.tocify {
-    width: 25%;
-  }
-}
-
-@media (max-width: 767px) {
-  div.tocify {
-    width: 100%;
-    max-width: none;
-  }
-}
-
-.tocify ul, .tocify li {
-  line-height: 20px;
-}
-
-.tocify-subheader .tocify-item {
-  font-size: 0.90em;
-  padding-left: 25px;
-  text-indent: 0;
-}
-
-.tocify .list-group-item {
-  border-radius: 0px;
-}
-
-
-</style>
-
-<!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row-fluid">
-<div class="col-xs-12 col-sm-4 col-md-3">
-<div id="TOC" class="tocify">
-</div>
-</div>
-
-<div class="toc-content col-xs-12 col-sm-8 col-md-9">
-
-
 
 
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
@@ -285,35 +187,23 @@ div.tocify {
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    Get in touch
+        <li>
+  <a href="mailto:dan.brady@rocketmail.com">
+    <span class="fa fa-envelope-o"></span>
      
-    <span class="caret"></span>
   </a>
-  <ul class="dropdown-menu" role="menu">
-    <li>
-      <a href="mailto:dan.brady@rocketmail.com">
-        <span class="fa fa-envelope-o"></span>
-         
-        Email
-      </a>
-    </li>
-    <li>
-      <a href="https://www.twitter.com/dantbrady">
-        <span class="fa fa-twitter"></span>
-         
-        Twitter
-      </a>
-    </li>
-    <li>
-      <a href="https://github.com/ubdbra001">
-        <span class="fa fa-github"></span>
-         
-        Github
-      </a>
-    </li>
-  </ul>
+</li>
+<li>
+  <a href="https://www.twitter.com/dantbrady">
+    <span class="fa fa-twitter"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://github.com/ubdbra001">
+    <span class="fa fa-github"></span>
+     
+  </a>
 </li>
       </ul>
     </div><!--/.nav-collapse -->
@@ -332,8 +222,10 @@ div.tocify {
 <p>I completed my PhD at Goldsmiths, Univesity of London in December 2016. My thesis investigated the neural correlates of motor learning in adults with and without DCD.</p>
 <p>I am a Postdoctoral fellow currently working at the University of Surrey in the <a href="https://www.surrey.ac.uk/school-psychology">School of Psychology</a>. I am working with <a href="https://www.surrey.ac.uk/people/hayley-leonard">Dr. Hayley Leonard</a> and <a href="https://www.surrey.ac.uk/people/bertram-opitz">Prof. Bertram Opitz</a> on a project investigating sequence predction in typically developing children, children with Developmental coordination disorder (DCD), and children with both DCD and language difficulties.</p>
 <hr />
-<div id="education" class="section level2">
-<h2>Education</h2>
+<div id="cv" class="section level2 tabset tabset-fade">
+<h2>CV</h2>
+<div id="education" class="section level3">
+<h3>Education</h3>
 <p><strong>Ph.D. Psychology</strong> - <em>Department of Psychology, Goldsmiths: 10/2012 - 09/2016</em></p>
 <ul>
 <li>Funded by Departmental Studentship</li>
@@ -348,10 +240,9 @@ div.tocify {
 <ul>
 <li>Awarded Upper Second-Class honours</li>
 </ul>
-<hr />
 </div>
-<div id="employment" class="section level2">
-<h2>Employment</h2>
+<div id="employment" class="section level3">
+<h3>Employment</h3>
 <p><strong>Postdoctoral research fellow (80% FTE)</strong> - <em>School of Psychology, University of Surrey: 10/2017 - Present</em></p>
 <ul>
 <li>Principle Investigators: Dr. Hayley Leonard &amp; Prof. Bertram Opitz</li>
@@ -367,24 +258,22 @@ div.tocify {
 <li>3rd year undergraduate and M.Sc. hands-on demonstrations with neuroscientific equipment</li>
 <li>E-Prime support space</li>
 </ul>
-<hr />
 </div>
-<div id="skills" class="section level2">
-<h2>Skills</h2>
+<div id="skills" class="section level3">
+<h3>Skills</h3>
 <p><strong>Technical skills</strong>:</p>
 <ul>
-<li>Programming: <em>Matlab, Python and R</em></li>
-<li>Experimental design: <em>PsychoPy, Psychtoolbox, E-Prime</em></li>
+<li>General programming: <em>Python, R, and Matlab</em></li>
+<li>Programming experiments: <em>PsychoPy, Psychtoolbox, E-Prime</em></li>
 <li>Experimental equipment: <em>EEG, TMS, and Eyetracking</em></li>
 <li>Data analysis: <em>Behavioural, EEG, and Eyetracking</em></li>
 <li>Testing children and adults</li>
 </ul>
 </div>
-
-
-
 </div>
-</div>
+
+
+
 
 </div>
 

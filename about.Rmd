@@ -1,9 +1,7 @@
 ---
 title: "About Me"
 output:
-  html_document:
-    toc: true
-    toc_float: true
+  html_document
 ---
 
 I completed my PhD at Goldsmiths, Univesity of London in December 2016. My thesis investigated the neural correlates of motor learning in adults with and without DCD.
@@ -13,7 +11,9 @@ I am working with [Dr. Hayley Leonard](https://www.surrey.ac.uk/people/hayley-le
 
 ---
 
-##Education {#education}  
+##CV {.tabset .tabset-fade}
+
+###Education  
 **Ph.D. Psychology** - *Department of Psychology, Goldsmiths: 10/2012 - 09/2016*  
 
 * Funded by Departmental Studentship
@@ -28,9 +28,8 @@ I am working with [Dr. Hayley Leonard](https://www.surrey.ac.uk/people/hayley-le
 
 * Awarded Upper Second-Class honours
 
----
 
-##Employment {#employment}
+###Employment
 
 **Postdoctoral research fellow (80% FTE)** - *School of Psychology, University of Surrey: 10/2017 - Present*
 
@@ -47,14 +46,13 @@ I am working with [Dr. Hayley Leonard](https://www.surrey.ac.uk/people/hayley-le
 * 3rd year undergraduate and M.Sc. hands-on demonstrations with neuroscientific equipment
 * E-Prime support space
 
----
 
-##Skills {#skills}
+###Skills
 
 **Technical skills**:
   
-* Programming: *Matlab, Python and R*
-* Experimental design: *PsychoPy, Psychtoolbox, E-Prime*
+* General programming: *Python, R, and Matlab*
+* Programming experiments: *PsychoPy, Psychtoolbox, E-Prime*
 * Experimental equipment: *EEG, TMS, and Eyetracking* 
 * Data analysis: *Behavioural, EEG, and Eyetracking*
 * Testing children and adults
